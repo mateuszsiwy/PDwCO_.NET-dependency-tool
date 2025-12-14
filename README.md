@@ -129,3 +129,40 @@ graph LR
     style F1 fill:#68217A,stroke:#4B1A5C,color:#fff
     style A1 fill:#CA5010,stroke:#A74109,color:#fff
 ```
+
+### Diagram UML klas (Mermaid)
+
+```mermaid
+classDiagram
+    class Library {
+        +String name
+        +String version
+        +String description
+        +String repository
+    }
+    
+    class Category {
+        +String name
+    }
+    
+    class Framework {
+        +String name
+        +String version
+    }
+    
+    class Author {
+        +String name
+        +String url
+    }
+    
+    Library "0..*" -- "0..*" Library : DEPENDS_ON
+    Library "0..*" -- "0..*" Category : BELONGS_TO
+    Library "0..*" -- "0..*" Framework : TARGETS
+    Library "0..*" -- "0..*" Author : MAINTAINED_BY
+    Library "0..*" -- "0..*" Library : ALTERNATIVE_TO
+    
+    note for Library "Główna encja reprezentująca\nbibliotekę .NET"
+    note for Category "Grupuje biblioteki\nwg funkcjonalności"
+    note for Framework "Określa wersję .NET\nobsługiwaną przez bibliotekę"
+    note for Author "Twórca lub\norganizacja utrzymująca"
+```
