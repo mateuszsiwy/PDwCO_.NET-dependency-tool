@@ -1,5 +1,7 @@
 # .NET dependency tool
 
+ZDEPLOYOWANA APLIKACJA ----> https://net-dependency-tool-1cebwfxnb-mateuszs-projects-f846d8f6.vercel.app/
+
 Interaktywna wizualizacja zależności między bibliotekami .NET z wykorzystaniem grafowej bazy danych.
 
 ## Technologie
