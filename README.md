@@ -51,7 +51,7 @@ NEO4J_PASSWORD=twoje-haslo
 npm run dev
 ```
 
-4. Otwórz [http://localhost:3000](http://localhost:3000)
+4. Otwórz [http://localhost]
 
 ## Funkcje
 
