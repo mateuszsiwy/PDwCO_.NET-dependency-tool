@@ -62,15 +62,6 @@ npm run dev
   - Circular Dependencies (wykrywanie cykli zależności)
 - **Lista bibliotek**: Przeglądanie wszystkich bibliotek z detalami
 
-## Deploy na Vercel
-
-```bash
-vercel login
-vercel
-```
-
-Dodaj zmienne środowiskowe w Vercel Dashboard → Settings → Environment Variables.
-
 ## Model danych
 
 ### Węzły (Nodes)
